@@ -1,0 +1,1 @@
+Getting started now, slecting designs from figma and turning it into reality, there is yet more to come and feel free to reach out as i really appreciate receving help and advice regarding my work on how more can i improve, thanks in advance.
