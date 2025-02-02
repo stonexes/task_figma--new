@@ -1,0 +1,40 @@
+.nav_bar {
+  min-height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  /* gap: 10rem; */
+}
+.nav_contents_mid {
+  /* width: 40%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7em;
+  /* color: black; */
+  
+}
+.nav_contents_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+.nav_contents_right_item2 button{
+    padding: .4rem;
+    font-family: 'poppins';
+    background-color: transparent;
+    border-radius: .2rem;
+}
+.nav_logo {
+  padding: 1rem;
+  
+}
+.nav_contents_right_item3{
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+  /* justify-content: center; */
+}
+
