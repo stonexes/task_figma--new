@@ -35,6 +35,17 @@
     /* object-fit: cover; */
     /* border-radius: 12px 12px 0 0; */
 }
+.section3_decore {
+    position: absolute;
+    width: 96px;
+    height: 252px;
+    right: 6.5rem;
+    bottom: 12rem;
+    z-index: -1;
+}
+.section3_decore img{
+    width: 100%;
+}
 .section3_box_cards_content{
     display: flex;
     flex-direction: column;
