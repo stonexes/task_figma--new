@@ -2,11 +2,11 @@
     padding: 0%;
     margin: 0%;
    box-sizing: border-box;
-   /* border: 1px solid black; */
+   border: 1px solid black;
    
 }
 body{
-    width: 1440px;
+    /* width: 1440px; */
     min-height: 4774px;
     background-color: #FFFFFF;
     font-family: 'poppins';

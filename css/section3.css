@@ -20,26 +20,26 @@
 }
 .section3_cards_box{
     width: 1102px;
-    height: 617px;
+    /* height: 617px; */
     /* width: 100%; */
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(32%, 1fr));
+    grid-template-columns: repeat(auto-fit, 316px);
     gap: 2%;
     /* padding: 1.5rem; */
     /* background-color: blueviolet; */
 }
 
 .section3_box_cards_content img{
-    width: 100%;
+    /* width: 100%; */
     /* height: 100%; */
-    /* object-fit: cover; */
+    object-fit: cover;
     border-radius: 12px 12px 0 0;
 }
 .section3_decore {
     position: absolute;
     width: 120px;
     height: 252px;
-    right: 6rem;
+    right: 11.6rem;
     bottom: 9rem;
     z-index: -1;
     
