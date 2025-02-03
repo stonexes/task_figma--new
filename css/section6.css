@@ -1,0 +1,18 @@
+._6{
+margin-top: 4rem;
+margin-left: 3rem;
+margin-right: 3rem ;
+
+}
+
+.section6_images{
+    
+    width: 100%;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    align-items: center;
+}
+.section6_images img{
+    width: 70%;
+}

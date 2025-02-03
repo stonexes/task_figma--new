@@ -4,7 +4,7 @@
 }
 .section3_box{
     /* height: 40rem; */
-    position: relative;
+    /* position: relative; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,28 +19,30 @@
     gap: 1.5rem;
 }
 .section3_cards_box{
-    width: 1102px;
+    /* position: relative; */
+    width: 90%;
     /* height: 617px; */
     /* width: 100%; */
     display: grid;
-    grid-template-columns: repeat(auto-fit, 316px);
-    gap: 2%;
+    grid-template-columns: repeat(auto-fit, minmax(316px,1fr));
+    /* gap: 3rem; */
     /* padding: 1.5rem; */
     /* background-color: blueviolet; */
+    
 }
 
 .section3_box_cards_content img{
-    /* width: 100%; */
+    /* width: 80%; */
     /* height: 100%; */
-    object-fit: cover;
+    /* object-fit: cover; */
     border-radius: 12px 12px 0 0;
 }
 .section3_decore {
     position: absolute;
     width: 120px;
     height: 252px;
-    right: 11.6rem;
-    bottom: 9rem;
+    right: -5rem;
+    bottom: 5rem;
     z-index: -1;
     
 }
@@ -49,6 +51,8 @@
     
 }
 .section3_box_cards_content{
+    position: relative;
+    width: 70%;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
@@ -71,7 +75,7 @@
     padding: .5rem;
     display: flex;
     justify-content: space-between;
-    gap: 11rem;
+    /* gap: 11rem; */
 }
 .card_text2{
     padding: .5rem;
