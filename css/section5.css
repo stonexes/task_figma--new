@@ -1,18 +1,24 @@
 ._5{
-    margin-top: 5rem;
-  /* border: 1px solid black; */
+    min-height: 40rem;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding: 1rem;
   }
   
   
   .section5_main_box{
-    /* width: 1114px; */
-    height: 492px;
+    min-width: 80%;
+    max-width: 30%;
+    /* min-height: 492px; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
-    margin-left:10rem;
-    margin-right: 10rem;
-    gap: 10em;
+    /* margin-left:10rem;
+    margin-right: 10rem; */
+    gap: 5em;
     /* border: 1px solid black; */
+    
   }
   
   .section5_box1{
@@ -37,7 +43,7 @@
   
   }
   .section5_image img{
-    width: 100%;
+    /* width: 100%; */
     
   }
   

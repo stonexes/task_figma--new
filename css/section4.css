@@ -1,6 +1,11 @@
 ._4{
-  margin-top: 5rem;
-/* border: 1px solid black; */
+  min-height: 50rem;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+
+
 }
 
 
@@ -24,6 +29,7 @@
 .section4_textblock1_contents{
  display: flex;
  align-items: center;
+ /* justify-content: center; */
  gap: .5rem;
  padding-bottom: 3rem;
 }

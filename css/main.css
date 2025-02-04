@@ -6,7 +6,7 @@
    
 }
 body{
-    /* width: 1440px; */
+    /* width: 100vw; */
     min-height: 4774px;
     background-color: #FFFFFF;
     font-family: 'poppins';
@@ -15,5 +15,5 @@ body{
     color: #5E6282;
     /* transform: scale(117%); */
     /* overflow: hidden; */
-
+    overflow-x: hidden;
 }
