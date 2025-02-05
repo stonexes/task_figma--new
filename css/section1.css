@@ -9,7 +9,7 @@
    display: flex;
    align-items: center;
    /* overflow: hidden; */
-   border: 1px solid black; 
+   /* border: 1px solid black;  */
 }
 .section1_background_images1{
     
@@ -38,8 +38,8 @@
 
 .section1_box{
    /* width:20rem; */
-   border: 1px solid black;
-   margin-left: 2rem;
+   /* border: 1px solid black; */
+   margin-left: 3rem;
 
 }
 .section1_box_text_block{

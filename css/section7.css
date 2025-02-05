@@ -1,0 +1,47 @@
+._7{
+
+   min-height: 25rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   padding: ;
+}
+
+.section7_main_box{
+    max-width: 90%;
+    /* min-width: 12.5rem; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 5rem;
+}
+.section7_heading{
+    /* font-style:'poppins'; */
+    font-size:2.1rem;
+    font-weight: 800;
+    line-height: 3.4rem;
+    color: #5E6282;
+}
+.section7_email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.section7_email input{
+    padding: 1rem;
+    border-radius: .5rem;
+    outline: none;
+    border: 1px  rgb(0, 0, 0);
+    box-shadow: 0px 0px 1px 1px  #FF7D68 ;
+}
+.section7_email button{
+    padding: 1rem;
+    border-radius: .3rem;
+    border: none;
+    background: linear-gradient(to bottom,#FF4E4E,#FF3333);
+    font-family: 'poppins';
+    color: #ffffff;
+}
