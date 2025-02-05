@@ -1,12 +1,15 @@
 
 ._1{
+    /* padding: 1rem; */
    /* position: relative; */
-   min-width: 1200px;
-   min-height: 764px;
-   margin-left: 5%;
+   /* min-width: 1200px; */
+   min-height: 40rem;
+   /* max-width: 80%; */
+   margin: 1rem;
    display: flex;
    align-items: center;
    /* overflow: hidden; */
+   border: 1px solid black; 
 }
 .section1_background_images1{
     
@@ -17,8 +20,8 @@
     /* overflow:hidden; */
 }
 .section1_background_images1 img{
-    min-height: 40rem;
-    min-width: 60rem;
+    /* min-height: 40rem;
+    min-width: 60rem; */
     
 
 }
@@ -35,18 +38,18 @@
 
 .section1_box{
    /* width:20rem; */
-   /* border: 5px solid black; */
-   
+   border: 1px solid black;
+   margin-left: 2rem;
 
 }
 .section1_box_text_block{
-    width: 630px;
+    max-width: 40rem;
+    min-width: 12.5rem;
     /* min-height: 535px; */
     display: flex;
     flex-direction: column;
     align-items: start;
-    /* padding: 2rem; */
-    gap: 1rem;
+    gap: 2rem;
 }
 .section1_box_text_block_item4{
     display:flex;
