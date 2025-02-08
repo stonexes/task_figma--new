@@ -1,10 +1,18 @@
 .nav_bar {
+  /* position: sticky; */
   min-height: 5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  transition: background-color .3s ease;
+  /* background-color: aqua; */
   /* gap: 10rem; */
+  z-index: 3;
+}
+.nav_bar.color{
+  background-color: blanchedalmond;
+
 }
 .nav_contents_mid {
   width: 40%;
