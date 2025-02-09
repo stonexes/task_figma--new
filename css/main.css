@@ -17,3 +17,7 @@ body{
     /* overflow: hidden; */
     overflow-x: hidden;
 }
+body.bgcolor{
+    background-color: #5E6282;
+    color: #FFFFFF;
+}

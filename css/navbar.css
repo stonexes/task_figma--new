@@ -8,7 +8,7 @@
   transition: background-color .3s ease;
   /* background-color: aqua; */
   /* gap: 10rem; */
-  z-index: 3;
+  /* z-index: 3; */
 }
 .nav_bar.color{
   background-color: blanchedalmond;
@@ -41,9 +41,50 @@
   
 }
 .nav_contents_right_item3{
+  position: relative;
   display: flex;
   align-items: center;
   gap: .2rem;
+  color: #5E6282;
+  
   /* justify-content: center; */
 }
+.fa-caret-down:hover{
+  color:orange;
+  transform:scale(1.1);
+}
+.nav_bar_lang_dropdown{
+  position: absolute;
+  top: 2rem;
+  display:none;
+  opacity: 0;
+  padding: 1rem;
+  text-align: center;
+  transition: all .3s ease-in;
+}
+.nav_bar_lang_dropdown_contents{
+  transition: all .3s ease;
+}
+.nav_bar_lang_dropdown_contents:hover{
+  transform: scale(1.05);
+  background-color: rgb(255, 187, 62);
+  border-radius: .5rem;
+  cursor: pointer;
 
+}
+.nav_bar_lang_dropdown.visible{
+  
+  display: block;
+  opacity: 1;
+  box-shadow: 0 0 2px 2px rgb(255, 187, 62);
+  
+
+}
+.fa-moon{
+  font-size: x-large;
+  color: orange;
+  transition: color .2s ease;
+}
+.fa-moon.orange{
+   color:#5E6282;
+}
